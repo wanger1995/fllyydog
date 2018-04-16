@@ -35,7 +35,7 @@ disk_mount = psutil.disk_partitions()[0][1]
 #磁盘设备的挂载点
 
 print "OS:%s, VERSION:%s"%(os,version)
-print 'NAME:%s, CPU:%s'%(name,core)+"%"
+print 'NAME:%s, CPU CORE:%s'%(name,core)
 print "CPU USED:%s"%cpu_use+"%"
 print "MEMORY USED:%s"%memory_use+"%"
 print "DISK USED:%s"%disk_use+"%"
