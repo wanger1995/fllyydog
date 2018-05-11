@@ -54,7 +54,7 @@ pcap_t * init()
 	}
 
 	//跳转到所选择的适配器
-	for (d = alldevs, i = 0; i < inum - 1; d = d->next, i++)
+	for (d = alldevs, i = 0; i < inum - 1; d = d->next, i++);
 
 		//打开所选的网卡适配器
 		if ((adhandle = pcap_open_live(d->name,   //适配器的名称
